@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//
 public class Timer : MonoBehaviour
 {
 
@@ -28,7 +28,7 @@ public class Timer : MonoBehaviour
 
     void Update()
     {
-        Time.timeScale = 0.5f; //m‰‰ritt‰‰ nopeuden ajan ja pelin fysiikat (esim asiat tippuvat nopeammin)
+        Time.timeScale = 0.5f; //m√§√§ritt√§√§ nopeuden ajan ja pelin fysiikat (esim asiat tippuvat nopeammin)
 
         timer += Time.deltaTime;
         Debug.Log(timer);
